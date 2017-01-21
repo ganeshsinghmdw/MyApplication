@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-        Toast.makeText(MainActivity.this,"Hello",Toast.LENGTH_SHORT).show();
+        QuesAlgo.getInstance().select(2,10,2);
     }
 }
